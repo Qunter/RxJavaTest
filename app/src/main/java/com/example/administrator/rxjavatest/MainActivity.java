@@ -3,6 +3,7 @@ package com.example.administrator.rxjavatest;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
@@ -10,8 +11,12 @@ import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
+/**
+ * 下一步以ImageView测试
+ */
 public class MainActivity extends AppCompatActivity {
     private String TAG="";
+    private ImageView mImg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
